@@ -1,0 +1,35 @@
+Section 18 Node.js
+    the node REPL Read Evaluation print loops
+        This is the node terminal 
+        to exit we can use the ".exit" or "ctrl+c" twice
+
+    How to use natice modules
+        We can use native modules with the keywork "require"
+        for example "const fs = require('fs')"
+        We can interact with filesystem 
+
+    The NPM package Manager and Installing External node modules
+        We init a node module with "npm init"
+        We install a package with "npm install 'package_name'"
+        All of them are as dependencies in our package.json file and generates a node_modules folder because they have their own dependencies
+    
+Section 19 Express.js with Node.js
+    Creating our first server with express
+        Here I intall express using "npm install express"
+        I use the "cosnt app = express()" to put the module in the app constant (this is a good practice)
+        I create the server listening in the port 3000 by using "app.listen(port, callback)"
+
+    Handling Requests and Responses the GET Request
+        Here we use the "app.get("/", callback)" to handle a GET request
+
+    nodemon installation
+        Here we intalled nodemon with the command "sudo npm -g install nodemon"
+        This is a tool that monitor our application by detecting changes and we don't need to restart every time we made a change
+
+    Understanding and working with routes
+        Here we create some routes with the "app.get(/{route}, callback)" function
+
+    Processing post requests with Body parser
+        Here we build our calculator with a html form that sends a post request
+        To receive that post request we use the "app.post("/{route}", callback)" 
+        To translate the http request we use body parser to handle the data easily  
