@@ -1,0 +1,30 @@
+We will go over 
+    Supervised Learning
+    Deep Learning
+    Unsupervised Learning
+    Recomendations 
+    Rankings
+
+Supervised Learning
+    Data
+    Labels
+    Structured data
+
+Deep Learning 
+    Perform Supervised or unsupervised learning with neural networks 
+    The model trains itself
+    Data doesn´t have to be very structured
+
+Unsupervised Learning
+    No labels
+    it groups the data
+    produces patterns 
+
+Recomendations
+    Recomendations models (Youtube next video)
+
+Ranking
+    Tik tok Rankings
+    Facebook rankings 
+    keep you for as long as possible to be in the platform 
+
